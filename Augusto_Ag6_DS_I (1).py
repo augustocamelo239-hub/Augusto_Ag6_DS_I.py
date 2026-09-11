@@ -7,7 +7,7 @@ valor = float(input("Digite o valor total da compra:"))
 if valor < 200:
     desconto = valor * 0.05
 
-elif valor > 300:
+elif valor < 300:
     desconto = valor * 0.10
 
 else:
